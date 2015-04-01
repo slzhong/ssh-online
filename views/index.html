@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+  <title>SSH Online</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <section id="login">
+    <h1>LOGIN</h1>
+    <input type="text" id="host" placeholder="user@host" autofocus>
+    <input type="password" id="password" placeholder="password">
+    <button id="submit">OK</button>
+  </section>
+
+  <section id="console"></section>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="./jquery-2.1.3.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
