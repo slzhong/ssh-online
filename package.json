@@ -1,0 +1,19 @@
+{
+  "name": "ssh-online",
+  "version": "0.0.1",
+  "description": "an online ssh client",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sherlock917/ssh-online.git"
+  },
+  "author": "S.L. Zhong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sherlock917/ssh-online/issues"
+  },
+  "homepage": "https://github.com/sherlock917/ssh-online"
+}
